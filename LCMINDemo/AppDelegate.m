@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+
+
 @interface AppDelegate ()
 
 @end
@@ -16,10 +18,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+//    [[NIMSDK sharedSDK].chatManager addDelegate:self];
+//    //推荐在程序启动的时候初始化 NIMSDK
+//    NSString *appKey        = @"2e5258c972677f9a95731118e3835647";
+//    NIMSDKOption *option    = [NIMSDKOption optionWithAppKey:appKey];
+//    option.apnsCername      = nil;
+//    option.pkCername        = nil;
+//    [[NIMSDK sharedSDK] registerWithOption:option];
+//
+//
+//    NSString *account = @"test_1";
+//    NSString *token   = @"3404a82139c160db85362646af9a826f";
+//    [[NIMSDK sharedSDK].loginManager addDelegate:self];
+//    [[[NIMSDK sharedSDK] loginManager] login:account
+//                                       token:token
+//                                  completion:^(NSError *error) {
+//
+//                                      NSLog(@"错误%@",error);
+//
+//                                  }];
+
+
     // Override point for customization after application launch.
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

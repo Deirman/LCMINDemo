@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A140DB93CE3E2251D0E759 /* libPods-LCMINDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC137722342887E1A51C4276 /* libPods-LCMINDemo.a */; };
+		A854EEC220B6444A0050F84C /* MINView.m in Sources */ = {isa = PBXBuildFile; fileRef = A854EEC120B6444A0050F84C /* MINView.m */; };
 		A8CDC57420B50D8E000F17F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC57320B50D8E000F17F3 /* AppDelegate.m */; };
 		A8CDC57720B50D8E000F17F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC57620B50D8E000F17F3 /* ViewController.m */; };
 		A8CDC57A20B50D8E000F17F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CDC57820B50D8E000F17F3 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		A8CDC58220B50D90000F17F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC58120B50D90000F17F3 /* main.m */; };
 		A8CDC58C20B50D90000F17F3 /* LCMINDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC58B20B50D90000F17F3 /* LCMINDemoTests.m */; };
 		A8CDC59720B50D90000F17F3 /* LCMINDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC59620B50D90000F17F3 /* LCMINDemoUITests.m */; };
+		A8CDC5A720B558DF000F17F3 /* LCDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC5A620B558DF000F17F3 /* LCDataManger.m */; };
+		A8CDC5AD20B55A30000F17F3 /* MINData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC5AC20B55A30000F17F3 /* MINData.m */; };
+		A8CDC5B020B563E1000F17F3 /* MINTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CDC5AF20B563E1000F17F3 /* MINTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263C67A6B7FA456CBF954885 /* Pods-LCMINDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCMINDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A854EEC020B6444A0050F84C /* MINView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINView.h; sourceTree = "<group>"; };
+		A854EEC120B6444A0050F84C /* MINView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINView.m; sourceTree = "<group>"; };
+		A854EEC320B6463C0050F84C /* LCMINDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCMINDemo.pch; sourceTree = "<group>"; };
 		A8CDC56F20B50D8E000F17F3 /* LCMINDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCMINDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CDC57220B50D8E000F17F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8CDC57320B50D8E000F17F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,14 @@
 		A8CDC59220B50D90000F17F3 /* LCMINDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCMINDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CDC59620B50D90000F17F3 /* LCMINDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCMINDemoUITests.m; sourceTree = "<group>"; };
 		A8CDC59820B50D90000F17F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CDC5A520B558DF000F17F3 /* LCDataManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCDataManger.h; sourceTree = "<group>"; };
+		A8CDC5A620B558DF000F17F3 /* LCDataManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCDataManger.m; sourceTree = "<group>"; };
+		A8CDC5AB20B55A30000F17F3 /* MINData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINData.h; sourceTree = "<group>"; };
+		A8CDC5AC20B55A30000F17F3 /* MINData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINData.m; sourceTree = "<group>"; };
+		A8CDC5AE20B563E1000F17F3 /* MINTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINTableViewCell.h; sourceTree = "<group>"; };
+		A8CDC5AF20B563E1000F17F3 /* MINTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINTableViewCell.m; sourceTree = "<group>"; };
+		AC137722342887E1A51C4276 /* libPods-LCMINDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCMINDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA5D150AA4083EA7168DAC6 /* Pods-LCMINDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCMINDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A140DB93CE3E2251D0E759 /* libPods-LCMINDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2B54B23EB7D423BEB4A0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC137722342887E1A51C4276 /* libPods-LCMINDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8CDC56620B50D8E000F17F3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				A8CDC58A20B50D90000F17F3 /* LCMINDemoTests */,
 				A8CDC59520B50D90000F17F3 /* LCMINDemoUITests */,
 				A8CDC57020B50D8E000F17F3 /* Products */,
+				E48343BAE23DB04B0CA3B16A /* Pods */,
+				1C2B54B23EB7D423BEB4A0A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +131,20 @@
 			children = (
 				A8CDC57220B50D8E000F17F3 /* AppDelegate.h */,
 				A8CDC57320B50D8E000F17F3 /* AppDelegate.m */,
+				A8CDC5AE20B563E1000F17F3 /* MINTableViewCell.h */,
+				A8CDC5AF20B563E1000F17F3 /* MINTableViewCell.m */,
+				A854EEC020B6444A0050F84C /* MINView.h */,
+				A854EEC120B6444A0050F84C /* MINView.m */,
 				A8CDC57520B50D8E000F17F3 /* ViewController.h */,
 				A8CDC57620B50D8E000F17F3 /* ViewController.m */,
+				A8CDC5AB20B55A30000F17F3 /* MINData.h */,
+				A8CDC5AC20B55A30000F17F3 /* MINData.m */,
+				A8CDC5A520B558DF000F17F3 /* LCDataManger.h */,
+				A8CDC5A620B558DF000F17F3 /* LCDataManger.m */,
 				A8CDC57820B50D8E000F17F3 /* Main.storyboard */,
 				A8CDC57B20B50D90000F17F3 /* Assets.xcassets */,
 				A8CDC57D20B50D90000F17F3 /* LaunchScreen.storyboard */,
+				A854EEC320B6463C0050F84C /* LCMINDemo.pch */,
 				A8CDC58020B50D90000F17F3 /* Info.plist */,
 				A8CDC58120B50D90000F17F3 /* main.m */,
 			);
@@ -132,6 +169,15 @@
 			path = LCMINDemoUITests;
 			sourceTree = "<group>";
 		};
+		E48343BAE23DB04B0CA3B16A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				263C67A6B7FA456CBF954885 /* Pods-LCMINDemo.debug.xcconfig */,
+				DEA5D150AA4083EA7168DAC6 /* Pods-LCMINDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8CDC59B20B50D90000F17F3 /* Build configuration list for PBXNativeTarget "LCMINDemo" */;
 			buildPhases = (
+				C0246032DB0A73AF5D9CBC8C /* [CP] Check Pods Manifest.lock */,
 				A8CDC56B20B50D8E000F17F3 /* Sources */,
 				A8CDC56C20B50D8E000F17F3 /* Frameworks */,
 				A8CDC56D20B50D8E000F17F3 /* Resources */,
+				179523AB44EFD5CCC809AD1A /* [CP] Embed Pods Frameworks */,
+				2E102215D66983886C30BF46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +248,11 @@
 				TargetAttributes = {
 					A8CDC56E20B50D8E000F17F3 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					A8CDC58620B50D90000F17F3 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -257,13 +311,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		179523AB44EFD5CCC809AD1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NVS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMAVChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E102215D66983886C30BF46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo-resources.sh",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NMCVideoFilter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCMINDemo/Pods-LCMINDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0246032DB0A73AF5D9CBC8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCMINDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8CDC56B20B50D8E000F17F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CDC5A720B558DF000F17F3 /* LCDataManger.m in Sources */,
+				A8CDC5AD20B55A30000F17F3 /* MINData.m in Sources */,
 				A8CDC57720B50D8E000F17F3 /* ViewController.m in Sources */,
 				A8CDC58220B50D90000F17F3 /* main.m in Sources */,
+				A854EEC220B6444A0050F84C /* MINView.m in Sources */,
+				A8CDC5B020B563E1000F17F3 /* MINTableViewCell.m in Sources */,
 				A8CDC57420B50D8E000F17F3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,15 +550,19 @@
 		};
 		A8CDC59C20B50D90000F17F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263C67A6B7FA456CBF954885 /* Pods-LCMINDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAZ4HY68QU;
+				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCMINDemo/LCMINDemo/LCMINDemo.pch;
 				INFOPLIST_FILE = LCMINDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.LCMINDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LC.LCMINDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,15 +570,19 @@
 		};
 		A8CDC59D20B50D90000F17F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA5D150AA4083EA7168DAC6 /* Pods-LCMINDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAZ4HY68QU;
+				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCMINDemo/LCMINDemo/LCMINDemo.pch;
 				INFOPLIST_FILE = LCMINDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LC.LCMINDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LC.LCMINDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
